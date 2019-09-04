@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X5内核加载问题⾃自查⼿手册" />
+
+        <Button
+            android:id="@+id/btn_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_010"
+            android:text="测试X5内核版本" />
+        <Button
+            android:id="@+id/btn_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_010"
+            android:text="跳转网页" />
+        <Button
+            android:id="@+id/btn_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_010"
+            android:text="打开xlsx文件" />
+        <Button
+            android:id="@+id/btn_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_010"
+            android:text="打开pdf文件" />
+        <Button
+            android:id="@+id/btn_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_010"
+            android:text="打开doc文件" />
+    </LinearLayout>
+
+
+</RelativeLayout>
